@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de número</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <h1>Contador</h1>
+    <button id="incrementBtn">Incrementar</button>
+
+    <script>
+        //adicinar codigo js para modificar contador
+
+        const incrementBtn = document.getElementById('incrementBtn')
+        const counterDisplay = document.createElement('h2')
+        let counter = 0
+
+        document.body.appendChild
+        (counterDisplay)
+        updateCounterDisplay()
+
+        incrementBtn.addEventListener
+        ('click' , ()=>{
+            counter++
+
+            updateCounterDisplay()
+        })
+
+        function updateCounterDisplay(){
+            counterDisplay.innerText = 
+            counter
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+body{
+    background: #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;    
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background: cornflowerblue;
+    margin-top: 95px;
+    margin-left: -80px;
+}
+
+button:hover{
+    background: crimson;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+}
+
